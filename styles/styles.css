@@ -2,6 +2,18 @@ body {
     padding-top: 70px;
 }
 
+.main-container {
+    margin: 0;
+}
+
 .navbar {
-    background: white;
+    background: #9E2B2D;
+}
+
+.navbar a {
+    color: #BCAC00;
+}
+
+.nav>li.active, .nav>li>a:focus, .nav>li>a:hover {
+    background: #6b1d1f;
 }
