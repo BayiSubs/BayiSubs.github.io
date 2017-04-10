@@ -6,14 +6,73 @@ body {
     margin: 0;
 }
 
-.navbar {
-    background: #9E2B2D;
+.navbar-default {
+  background-color: #9e2b2d;
+  border-color: #6b1d1f;
+}
+.navbar-default .navbar-brand {
+  color: #bcac00;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #bcac00;
+}
+.navbar-default .navbar-text {
+  color: #bcac00;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #bcac00;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bcac00;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #bcac00;
+  background-color: #6b1d1f;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #bcac00;
+  background-color: #6b1d1f;
+}
+.navbar-default .navbar-toggle {
+  border-color: #6b1d1f;
+  background-color: #6b1d1f;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #6b1d1f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #bcac00;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #bcac00;
+}
+.navbar-default .navbar-link {
+  color: #bcac00;
+}
+.navbar-default .navbar-link:hover {
+  color: #bcac00;
 }
 
-.navbar a {
-    color: #BCAC00;
-}
-
-.nav>li.active, .nav>li>a:focus, .nav>li>a:hover {
-    background: #6b1d1f;
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #bcac00;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bcac00;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bcac00;
+    background-color: #6b1d1f;
+  }
 }
