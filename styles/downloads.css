@@ -18,7 +18,7 @@ body {
 
 .main {
     flex: 1;
-    padding: 0 30px 0 30px;
+    padding: 0 30px 50px 30px;
 }
 
 #sidebar_container {
@@ -63,7 +63,7 @@ body {
 
 @media (max-width: 767px) {
     #sidebar_container {
-        position: absolute;
+        position: fixed;
         z-index: 1000;
         -webkit-transition: left 0.5s;
         transition: left 0.5s;
