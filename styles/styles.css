@@ -1,9 +1,13 @@
 body {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .main-container {
     margin: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .navbar-default {
@@ -59,6 +63,10 @@ body {
 }
 .navbar-default .navbar-link:hover {
   color: #bcac00;
+}
+
+footer {
+  height: 50px;
 }
 
 @media (max-width: 767px) {
