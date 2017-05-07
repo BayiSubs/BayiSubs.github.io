@@ -41,6 +41,14 @@ body {
     cursor: pointer;
 }
 
+.collapse-link::before {
+    content: 'Show '
+}
+
+.collapse-link[aria-expanded="true"]::before {
+    content: 'Hide '
+}
+
 .show-container {
     padding: 15px;
     margin-bottom: 10px;
